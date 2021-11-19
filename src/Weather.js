@@ -67,7 +67,6 @@ export default function Weather() {
         <a
           className="link"
           href="https://github.com/sarahanngwynn/Vanilla-Weather-App.git"
-          target="_blank"
         >
           open-sourced on GitHub
         </a>
