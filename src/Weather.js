@@ -3,15 +3,14 @@ import "./Weather.css";
 
 export default function Weather() {
   let weatherData = {
-    city: "New York",
-    temperature: 19,
-    date: "Tuesday 10:00",
-    description: "Cloudy",
+    city: "San Francisco",
+    temperature: 69,
+    date: "Friday, 12:00",
+    description: "Sunny",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
-    humidity: 80,
+    humidity: 75,
     wind: 10,
   };
-
   return (
     <div className="Weather">
       <form className="mb-3">
@@ -51,7 +50,7 @@ export default function Weather() {
             <div className="float-left">
               <strong>{weatherData.temperature}</strong>
               <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
+                <a href="/">°F</a> | <a href="/">°C</a>
               </span>
             </div>
           </div>
