@@ -3,7 +3,9 @@
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
-
+a {
+  text-decoration: none;
+}
 .Weather .overview {
   margin-bottom: 20px;
 }
